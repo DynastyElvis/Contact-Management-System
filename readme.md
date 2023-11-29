@@ -1,7 +1,7 @@
 ## Contact Book
 
 
-A contact management software is a program that allows users to effortlessly store and locate contact details like names, addresses, and phone numbers. These applications serve as databases centered around contacts, offering a seamless approach to monitoring all information and communication activities related to contacts. Entry-level options designed for personal use are inclusive of...
+A contact management software is a program that allows users to effortlessly store and locate contact details like names, addresses, and phone numbers. These applications serve as databases centered around contacts, offering a seamless approach to monitoring all information and communication activities related to contacts. 
 
 
 
