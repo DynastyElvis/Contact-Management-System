@@ -19,4 +19,9 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('', function () {
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/contact/add-new', 'ContactController@showForm')->name('addnew');
+Route::post('/contact/save', 'ContactController@save')->name('save_contact');
+Route::get('/contact/edit/{id}', 'ContactController@showForm')->name('edit_contact');
+Route::get('/contact/delete/{id}', 'ContactController@delete')->name('delete_contact');
+Route::get('/contact/delete/{id}/confirmed', 'ContactController@deleteConfirmed')->name('delete_contact_confirmed');
